@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Ip/Dns Address"
+        android:key="ipPref"
+        android:id="@+id/ipEditTextPref"
+        android:defaultValue="127.0.0.1"
+        android:summary="Configure IP address of Server" />
+
+    <EditTextPreference
+        android:title="Port"
+        android:id="@+id/portEditTextPref"
+        android:key="portPref"
+        android:defaultValue="8080"
+        android:summary="Configure port number of Server"
+        android:inputType="number"
+        android:maxLength="5" />
+
+</PreferenceScreen>
